@@ -41,6 +41,8 @@ class Snake(neat.DefaultGenome):
                 self.x_pos += x_change
             elif self.x_pos == 450 and x_change < 0 :    
                 self.x_pos += x_change
+            else 
+                return 0
 
             
     def get_width_coord(self):
